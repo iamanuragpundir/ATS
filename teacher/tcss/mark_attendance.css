@@ -1,0 +1,29 @@
+body{
+	background-image: url("../../images/teacherbg.jpg");
+	background-size: cover;
+}
+#t1{
+	align-self: center;
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+}
+#mrkatt{
+	color: white;
+	align-items: center;
+	position:absolute;
+	left:30%;
+	top:23%;
+	text-align: center;
+
+}
+#mrkatt td{
+	border:outset;
+	padding: 5px 5px;
+}
+.btns{
+	position: absolute;
+	top: 18%;
+	left: 43%;
+	padding: 5px 5px;
+}

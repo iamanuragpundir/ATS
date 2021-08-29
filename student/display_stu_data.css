@@ -1,0 +1,30 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background-image: url(../images/teacherbg.jpg);
+	background-size: cover;
+	color:white;
+}
+td{
+	text-align: center;
+	width: 90px;
+	height: 30px;
+	padding: 5px 5px;
+}
+.stu{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+h2{
+	color: black;
+	font-family: sans-serif;
+	position: absolute;
+	left:35%; 
+	top:3%;
+}
+button{
+	padding: 5px 5px;
+}

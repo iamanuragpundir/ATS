@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../images/bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.clg{
+	font-size: 30px;
+	color: #fff;
+}
+.logo img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+}
+.main{
+	max-width: 1100px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top:45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: auto;
+}
+.title h1{
+	color: #fff;
+	font-size: 45px;
+	left:45%;
+}
+.login{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: auto;
+	font-size: 30px;
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 60px;
+	color: #fff;
+	text-decoration: none;
+}
+.clg{
+	position: absolute;
+	left:25%;
+}
+
+ul {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	color:white;
+}
+a{
+	color:white;
+	background-color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li{
+	display: block;
+
+}
+ul li ul {
+	list-style: none;
+
+}
+ul ul{
+	display: none;
+}
+ul li:hover > ul {
+	cursor: pointer;
+	display: block;
+	background-color: none;
+}
